@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         Boss boss = new Boss("Thanos", 2000, 100);
-        boss.setWeapon(boss.weapon);
+        Weapon weapon = new Weapon("Glove", "Infinity Stones");
+        boss.setWeapon(weapon);
 
         System.out.println(boss.printInfo());
 

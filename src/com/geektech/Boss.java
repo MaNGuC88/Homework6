@@ -1,8 +1,8 @@
 package com.geektech;
 
-public class Boss extends GameEntity{
+public class Boss extends GameEntity {
 
-    Weapon weapon = new Weapon("Glove", "Infinity Stones");
+    private Weapon weapon;
 
     public Boss(String name, int health, int damage) {
         super(name, health, damage);

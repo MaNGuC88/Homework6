@@ -15,4 +15,9 @@ public class Boss extends GameEntity{
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
+
+    public String printInfo() {
+        return getName() + "'s health = " + getHealth() + ", damage = " + getDamage() +
+                ", Weapon type is " + getWeapon().getWeaponName() + " " + getWeapon().getWeaponType();
+    }
 }

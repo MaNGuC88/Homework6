@@ -17,7 +17,7 @@ public class Boss extends GameEntity{
     }
 
     public String printInfo() {
-        return getName() + "'s health = " + getHealth() + ", damage = " + getDamage() +
+        return getName() + "' health = " + getHealth() + ", damage = " + getDamage() +
                 ", Weapon type is " + getWeapon().getWeaponName() + " " + getWeapon().getWeaponType();
     }
 }
